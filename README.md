@@ -11,7 +11,7 @@ from typing import List, Dict
 # GEMINI CONFIG
 # ---------------------------------
 
-genai.configure(api_key="AIzaSyB7dWP5vMiUPt3eP4AoRfb3f-u7JL_XvlQ")
+genai.configure(
 
 MODEL = genai.GenerativeModel(
     model_name="gemini-1.5-pro",
